@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Component } from "react";
 import "./index.styl";
-console.log(1);
 
 export default class extends Component {
   public render() {

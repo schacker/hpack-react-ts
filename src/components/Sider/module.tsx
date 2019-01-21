@@ -2,7 +2,6 @@ import * as React from "react";
 import { Component } from "react";
 import { NavLink } from "react-router-dom";
 import * as TYPE from "./type";
-console.log(3);
 import "./index.styl";
 
 export default class extends Component<TYPE.IProps, {}> {

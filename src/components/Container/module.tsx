@@ -4,8 +4,6 @@ import { Route } from "react-router-dom";
 import Sider from "../Sider/module";
 import * as TYPE from "./type";
 
-console.log("Sider", Sider);
-
 import "./index.styl";
 
 export default class extends Component<TYPE.IProps, {} > {

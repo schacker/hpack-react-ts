@@ -12,7 +12,6 @@ class App extends React.Component<TYPE.IProps, {}> {
   }
 
   public render() {
-    console.log(2);
     return (
       <div className="wrap-container">
         <Header />
