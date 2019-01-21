@@ -1,11 +1,7 @@
-console.log(1);
 import * as React from "react";
-import Header from "../../components/Header";
-import Container from "../../components/Container";
+import Header from "components/Header/module";
+import Container from "components/Container/module";
 import * as TYPE from "./type";
-
-console.log(Header);
-console.log(Container);
 
 import "./index.styl";
 
@@ -16,6 +12,7 @@ class App extends React.Component<TYPE.IProps, {}> {
   }
 
   public render() {
+    console.log(2);
     return (
       <div className="wrap-container">
         <Header />

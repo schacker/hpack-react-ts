@@ -1,6 +1,6 @@
-import * as React from 'react'
-import { Component } from 'react'
-console.log('inner module1')
+import * as React from "react";
+import { Component } from "react";
+console.log("inner module1");
 // interface IProps extends React.Props<any> {
 //   router: {
 //     path: string,
@@ -12,7 +12,7 @@ console.log('inner module1')
 // }
 
 export default class extends Component {
-  render () {
-    return <div> Module1 </div>
+  public render() {
+    return (<div> Module1 </div>);
   }
 }

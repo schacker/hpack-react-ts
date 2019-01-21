@@ -1,5 +1,5 @@
-import Module1 from "../pages/Module1/index";
-import Module2 from "../pages/Module2/index";
+import Module1 from "pages/Module1/module";
+import Module2 from "pages/Module2/module";
 
 console.log("inner routes");
 
